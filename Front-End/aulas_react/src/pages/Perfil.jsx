@@ -1,0 +1,16 @@
+import { Link, useParams } from 'react-router-dom'
+
+function Perfil() {
+    const {nome} = useParams();
+    //Chamar uma api consultando o ID do produto
+
+    return(
+        <div>
+            <h1>Este é o perfil de {nome}</h1>
+            {/* <a href='/'><a> */}
+            <Link to='/'>Voltar para principal</Link>
+        </div>
+    )
+}
+
+export default Perfil
