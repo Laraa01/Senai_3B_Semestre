@@ -16,8 +16,12 @@ const Aula14 = () => {
             <br />
             <Link to='/sesisenai'> Página não encontrada </Link>
             <br />
+            <Link to='/detalhes'>Página do Início</Link>
+            <br />
+            <Link to='/inicio'>Página de Contato</Link>
             <h3>Navegação com programação utilizando o useNavigate</h3>
             <button onClick={() => navigate('/sobre')}>Sobre</button>
+            <button onClick={() => navigate('/contato')}>Contato</button>
 
             <hr />
             <h3>Rota dinâmica com useParams
